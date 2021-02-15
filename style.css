@@ -1,0 +1,26 @@
+body
+{
+    background-color: gray;
+    /* Background pattern from subtlepatterns.com */
+    background-image: url("img/more-leaves.png");
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#Helloworld
+{
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: white;
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 3px solid darkcyan;
+    text-align: center;
+}
