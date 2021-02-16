@@ -2,7 +2,7 @@ body
 {
     background-color: gray;
     /* Background pattern from subtlepatterns.com */
-    background-image: url("img/more-leaves.png");
+    background-image: url("img/double-bubble-dark.png");
     margin-right: 30px;
     margin-left: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -16,11 +16,12 @@ body
     margin-right: auto;
     margin-top: 15px;
     background-color: white;
+    background-image: url("img/y-so-serious-white.png");
     width: 40%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    border: 3px solid darkcyan;
+    border: 3px solid gray;
     text-align: center;
 }
