@@ -1,0 +1,128 @@
+body
+{
+    background-color: gray;
+    /* Background pattern from subtlepatterns.com */
+    background-image: url("img/double-bubble-dark.png");
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#Helloworld
+{
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: white;
+    background-image: url("img/y-so-serious-white.png");
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 3px solid gray;
+    text-align: center;
+}
+
+#headnav
+{
+    width: calc(80% - 4px);
+    background-color: honeydew;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    border: 2px solid gray;
+    margin-left: 10%;
+}
+
+#nav
+{
+    list-style-type: none;
+    display: inline;
+    padding-inline-start: 0px;
+}
+
+#nav > li:first-child
+{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#nav > li
+{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#nav > li:last-child
+{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#logosvg1
+{
+    height: 72px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#logosvg2
+{
+    height: 75px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#logo2
+{
+    background-color: honeydew;
+}
+
+#logo1
+{
+    background-color: honeydew;
+}
+
+#logo
+{
+    background-color: honeydew;
+    display: flex;
+    width: calc(80% - 6px);
+    margin-bottom: 0px;
+    border: 3px solid gray;
+    margin-left: 10%;
+}
+
+#XmoxEL
+{
+    flex: 1;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.link
+{
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: gray;
+    text-decoration: none;
+}
