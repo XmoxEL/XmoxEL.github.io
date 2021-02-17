@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>RClub</title>
+	<meta name="description" content="Strona klubu RClub" />
+	<meta name="keywords" content="esport, minecraft, quake, quake3, quakeiii, quake 3, quake iii, openarena, open arena, rclub" />
+	<link rel="stylesheet" href="rstyle.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/faviconrc.png"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	<script>
+
+		jQuery(function($)
+		{
+			//reset scroll
+			$.scrollTo(0);
+
+			$('#spislink1').click(function() {$.scrollTo($('#kim-jestesmy'), 500); });
+			$('#spislink2').click(function() {$.scrollTo($('#w-co-gramy'), 500); });
+			$('#spislink3').click(function() {$.scrollTo($('#kontakt'), 500); })
+			$('.scrollup').click(function() {$.scrollTo($('body'), 1000); })
+		}
+		);
+	</script>
+	
+</head>
+
+<body>
+	
+	<header>
+		<a href="/" class="link">
+			<div id="logo">
+				RClub
+				<img id="logosvg" src="img/logo2.svg"/>
+				<img id="logosvg1" src="img/logo2.svg"/>
+			</div>
+		</a>
+		<nav>
+			<div id="nav">
+				<ul class="navlist">
+					<li><a href="/" class="link">Strona główna</a></li>
+					<li>News</li>
+					<li>Członkowie</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<a href="#" class="scrollup"></a>
+
+	<main>
+		<nav>
+			<div class="tile">
+						<a id="spislink1" class="link1" href="#">Kim jesteśmy?</a> <br/>
+						<a id="spislink2" class="link1" href="#">W co gramy?</a> <br/>
+						<a id="spislink3" class="link1" href="#">Jak się z nami skontaktować?</a><br/>
+			</div>
+		</nav>
+		<br/>
+
+		<article>
+			<section>
+				<div id="kim-jestesmy" class="tile1">
+					<header><h1>Kim jesteśmy?</h1></header>
+					Jesteśmy twórcami filmów na kanale <a href="https://www.youtube.com/channel/UCQkc_pCBiaR1b_pnvmR1LhQ" class="link2" target="_blank">Ryszardianizm Records</a> oraz planujemy streamy gier na kanale <a href="https://www.youtube.com/channel/UCaSMI6ftKx8ecdH2-vYnd_A" class="link2" target="_blank">Rynienkowcy</a>.
+					<br/><br/>
+					Prowadzimy także indywidualną działalność na własnych kanałach.
+				</div>
+			</section>
+
+			<br/>
+
+			<section>
+				<div id="w-co-gramy" class="tile1">
+					<header><h1>W co gramy?</h1></header>
+					Póki co w <a href="https://www.minecraft.net/" class="link2" target="_blank">Minecrafta</a>( ͡° ͜ʖ ͡°), <a href="https://www.liero.be/" class="link2" target="_blank">Liero</a> i <a href="http://www.openarena.ws/" class="link2" target="_blank">Openarena</a>(Quake 3)
+				</div>
+			</section>
+
+			<br/>
+
+			<section>
+				<div id="kontakt" class="tile1">
+					<header><h1>Jak się z nami skontaktować?</h1></header>
+					Adres kontaktowy naszego redaktora naczelnego - <a href="mailto:kontakt.z.czuekvllinim@gmail.com" class="link2" target="_blank">kontakt.z.czuekvllinim@gmail.com</a>
+				</div>
+			</section>
+		</article>
+	</main>
+	<br/>
+
+	<footer>
+		<div id="stopka">
+			Stronę utworzył XmoxEL
+		</div>
+	</footer>
+
+</body>
+</html>
