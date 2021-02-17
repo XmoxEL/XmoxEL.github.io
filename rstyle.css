@@ -185,3 +185,8 @@ a.link2:hover
     padding-left: 20px;
     border-left: 1px dashed darkcyan;
 }
+
+.data
+{
+    font-size: 15px;
+}
