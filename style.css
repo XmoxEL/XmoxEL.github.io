@@ -68,12 +68,18 @@ body
 {
     height: 72px;
     float: left;
+    margin-left: 5%;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 #logosvg2
 {
     height: 75px;
     float: left;
+    margin-right: 5%;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 #logo2
