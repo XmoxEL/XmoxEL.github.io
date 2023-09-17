@@ -1,128 +1,126 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 body
 {
+    background-color: #0080fd;
+    font-family: Manrope;
+    color: white;
+}
+main
+{
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    overflow: auto;
+    background-color: #2e2e2e;
+    background-image: url(img/denim.webp);
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header
+{
+    color: white;
+    -webkit-text-stroke: 2px white;
+    font-weight: bold;
+    font-size: 160px;
+    padding: 20px;
+    padding-left: 40px;
+    border-bottom: 2px solid white;
+}
+article
+{
+    box-sizing: border-box;
+    border-right: 2px solid white;
+    width: 70%;
+    padding: 30px;
+    float: left;
+    font-size: 40px;
+}
+aside
+{
+    float: left;
+    width: 30%;
+}
+aside::after
+{
+    clear: both;
+}
+h1
+{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    background-color: #0080fd;
+}
+i
+{
+    font-weight: 300;
+    color: #0080fd;
+}
+aside>a
+{
     background-color: gray;
-    /* Background pattern from subtlepatterns.com */
-    background-image: url("img/double-bubble-dark.png");
-    margin-right: 30px;
-    margin-left: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-#Helloworld
-{
-    border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    background-color: white;
-    background-image: url("img/y-so-serious-white.png");
-    width: 40%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: 3px solid gray;
+    font-size: 80px;
     text-align: center;
 }
-
-#headnav
+aside>a:hover
 {
-    width: calc(80% - 4px);
-    background-color: honeydew;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-    border: 2px solid gray;
-    margin-left: 10%;
+    background-color: #707070;
 }
-
-#nav
+#linkedin
 {
-    list-style-type: none;
-    display: inline;
-    padding-inline-start: 0px;
+    background-color: #0a66c2;
 }
-
-#nav > li:first-child
+#linkedin:hover
 {
-    display: inline-block;
-    padding-right: 10px;
+    background-color: #0955b1;
 }
-
-#nav > li
+#mail
 {
-    display: inline-block;
-    padding-right: 10px;
-    padding-left: 10px;
+    background-color: #a73939;
 }
-
-#nav > li:last-child
+#mail:hover
 {
-    display: inline-block;
-    padding-left: 10px;
+    background-color: #b62828;
 }
-
-#logosvg1
+#telegram
 {
-    height: 72px;
-    float: left;
-    margin-left: 5%;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    background-color: #28a9ea;
 }
-
-#logosvg2
+#telegram:hover
 {
-    height: 75px;
-    float: left;
-    margin-right: 5%;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    background-color: #1798d9;
 }
-
-#logo2
+i.demo-icon
 {
-    background-color: honeydew;
+    color: white;
 }
-
-#logo1
+a
 {
-    background-color: honeydew;
-}
-
-#logo
-{
-    background-color: honeydew;
-    display: flex;
-    width: calc(80% - 6px);
-    margin-bottom: 0px;
-    border: 3px solid gray;
-    margin-left: 10%;
-}
-
-#XmoxEL
-{
-    flex: 1;
-    text-align: center;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.link
-{
-    color: black;
-    text-decoration: none;
-}
-
-.link:hover
-{
-    color: gray;
+    transition: 500ms;
+    display: block;
+    color: white;
     text-decoration: none;
 }
